@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f3e5d8;
+}
+
+main {
+    width: 550px;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.omelette-pic {
+    width: 100%;
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.section-title {
+    font-family: "Young Serif", serif;
+    color: #83452f;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #4a4946;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.container-preparation-time {
+    background-color: #fff7fc;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.preparation-time {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.prep-list li::marker {
+    color: hsl(332, 51%, 32%);
+    font-size: 8px;
+}
+
+.prep-list li {
+    padding-left: 15px;
+    color: rgb(78, 75, 75);
+    font-size: 14px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.prep-list {
+    padding-left: 15px;
+    line-height: 26px;
+}
+
+.content ul li::marker {
+    color: #83452f;
+    font-size: 8px;
+}
+
+.content ul {
+    padding-left: 18px;
+}
+
+.content ul li {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(78, 75, 75);
+}
+
+.content ol li::marker {
+    color: #83452f;
+    font-weight: bold;
+}
+
+.content ol li {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.content ol {
+    font-size: 14px;
+    padding-left: 18px;
+}
+
+.instruction-bold {
+    font-weight: bold;
+}
+
+.nutrition-box {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-left: 28px;
+    font-size: 14px;
+}
+
+.nutrition-type {
+    color: rgb(78, 75, 75);
+}
+
+.nutrition-amount {
+    color: #83452f;
+    font-weight: bold;
+}
+
+.nutrition-separator {
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+
+    main {
+        width: 100vh;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .omelette-pic {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .document {
+        padding: 0 20px 30px 20px;
+    }
+}
